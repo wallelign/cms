@@ -1,0 +1,15 @@
+  #care game
+message=input("message")
+while message=="help":
+    print("start- to start a care")
+    print("stop- to stop a care")
+    print("quit- to exit a care")
+    message2=input("enter ur addetional message")
+    if message2=="start":
+        print("care is started... ready")
+    elif message2=="stop":
+        print("the care is stoped")
+    elif message2=="quit":
+        print("quit the prigram")
+else:
+    print("i don't understand")
